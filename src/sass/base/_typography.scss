@@ -51,3 +51,19 @@ body {
 
   span { display: block; }
 }
+
+.contact {
+  a {
+    text-decoration: none;
+  }
+
+  &__info {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    color: #F39BDF;
+    text-shadow: 2px 2px 2px #610CB8;
+
+    
+  }
+}

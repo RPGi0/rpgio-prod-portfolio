@@ -82,6 +82,16 @@ body {
   .heading-secondary span {
     display: block; }
 
+.contact a {
+  text-decoration: none; }
+
+.contact__info {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  color: #F39BDF;
+  text-shadow: 2px 2px 2px #610CB8; }
+
 .u-center-text {
   text-align: center !important; }
 

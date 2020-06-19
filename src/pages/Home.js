@@ -3,7 +3,8 @@ import React from 'react';
 export default function Home (props) {
   return (
     <div className='home'>
-      {!props.loading && <header className="home__heading">
+      {!props.loading && 
+      <header className="home__heading">
         <h1 className="heading-primary">
           <span className="heading-primary--main">Robert Giovinozzo</span>
           <span className="heading-primary--sub">Frontend UI/UX Design &amp; Development</span>
@@ -12,7 +13,23 @@ export default function Home (props) {
           <span>Creative solutions</span>
           <span>Elegant Design</span>
         </h3>
-      </header>}
+
+        <div className="contact">
+          <div className="contact__info">
+            <span className="contact__info contact__info--phone">(707) 797-7610</span>
+            <a href="mailto:gio@llnnll.com" className="contact__info contact__info--email">gio@llnnll.com</a>
+          </div>
+          <div className="contact__soc-links">
+            <a href="https://www.linkedin.com/in/rpgio/" className="contact__soc-links--link">
+              <span className="link">LinkedIn</span>
+            </a>
+            <a href="https://github.com/RPGi0" className="contact__soc-links--link">
+              <span className="link">GitHub</span>
+            </a>
+          </div>
+        </div>
+      </header>
+      }
     </div>
   );
 }
