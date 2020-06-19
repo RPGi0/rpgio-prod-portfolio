@@ -1,0 +1,9 @@
+.loading-container {
+  // @include absCenter;
+
+  &.done {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+

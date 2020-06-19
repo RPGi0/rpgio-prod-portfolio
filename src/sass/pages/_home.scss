@@ -1,13 +1,16 @@
 .home {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to bottom right, $color-mauve, $color-orchid);
+  background-image: linear-gradient(to bottom right, 
+    rgba($color-tertiary-light, .8),
+    rgba($color-tertiary-dark, .8)),
+    url('./assets/images/honeycomb.webp');
   background-size: cover;
+  background-position: top;
   position: relative;
 
   &__heading {
     @include absCenter;
-    // top: 20%;
     text-align: center;
   }
 }
