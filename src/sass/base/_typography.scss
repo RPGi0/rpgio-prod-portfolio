@@ -53,6 +53,7 @@ body {
 }
 
 .contact {
+  margin: 1rem 2rem;
   a {
     text-decoration: none;
   }
@@ -62,8 +63,9 @@ body {
     padding: 1rem 2rem;
     font-size: 3rem;
     color: #F39BDF;
-    text-shadow: 2px 2px 2px #610CB8;
+    text-shadow: 2px 2px 2px $color-tertiary-dark;
     text-transform: uppercase;
+    margin-bottom: -2rem;
   }
 
   &__soc-links {
@@ -74,4 +76,6 @@ body {
     text-shadow: 2px 2px 2px $color-secondary-dark;
     font-family: monospace;
   }
+
+
 }
