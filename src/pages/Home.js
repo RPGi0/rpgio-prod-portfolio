@@ -17,16 +17,20 @@ export default function Home (props) {
         <div className="contact">
           <div className="contact__info">
             <span className="contact__info contact__info--phone">(707) 797-7610</span>
+
             <a href="mailto:gio@llnnll.com" className="contact__info contact__info--email">gio@llnnll.com</a>
           </div>
+
           <div className="contact__soc-links">
-            <a href="https://www.linkedin.com/in/rpgio/" className="contact__soc-links--link">
+            <a href="https://www.linkedin.com/in/rpgio/" className="contact__soc-links contact__soc-links--link">
               <span className="link">LinkedIn</span>
             </a>
-            <a href="https://github.com/RPGi0" className="contact__soc-links--link">
+
+            <a href="https://github.com/RPGi0" className="contact__soc-links contact__soc-links--link">
               <span className="link">GitHub</span>
             </a>
           </div>
+          
         </div>
       </header>
       }

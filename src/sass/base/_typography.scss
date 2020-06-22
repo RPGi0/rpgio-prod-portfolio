@@ -63,7 +63,15 @@ body {
     font-size: 3rem;
     color: #F39BDF;
     text-shadow: 2px 2px 2px #610CB8;
+    text-transform: uppercase;
+  }
 
-    
+  &__soc-links {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    color: $color-white;
+    text-shadow: 2px 2px 2px $color-secondary-dark;
+    font-family: monospace;
   }
 }
