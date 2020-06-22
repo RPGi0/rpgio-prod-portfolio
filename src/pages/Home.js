@@ -1,12 +1,6 @@
 import React from 'react';
 
 export default function Home (props) {
-//   <div className="res">
-//     <a className=" res res__doc" title="Resume Download for Robert Giovinozzo"
-//       target="_blank" rel="noopener noreferrer"
-//       href="../assets/docs/R.Giovinozzo_resume_2020.06.17.pdf">Download my Resume</a>
-//   </div>
-
   return (
     <div className='home'>
       {!props.loading && 

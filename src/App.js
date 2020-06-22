@@ -17,8 +17,9 @@ export default function App() {
   return (
     <div className="app">
       <LoadingSpinner loading={loading}/>
-      <Router>
-        <Route path="/" exact render={() => <Home loading={loading}/>} />
+      <Router basename={'/'}>
+        <Route path={`${process.env.PUBLIC_URL}/`} render={
+          () => <Home loading={loading}/>} />
       </Router>
     </div>
   )

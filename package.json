@@ -14,9 +14,11 @@
     "react-scripts": "3.4.1",
     "react-spinjs-fix": "^3.1.1"
   },
+  "homepage": "https://rp-g.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "local": "PUBLIC_URL=/ react-scripts build && serve -s build",
     "test": "react-scripts test",
     "compile:sass": "node-sass src/sass/main.scss src/index.css -w"
   },
@@ -34,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "serve": "^11.3.2"
   }
 }
