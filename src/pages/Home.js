@@ -14,6 +14,12 @@ export default function Home (props) {
           <span>Elegant Design</span>
         </h3>
 
+        <div className="res">
+          <a className="res res__doc" title="Resume Download for Robert Giovinozzo"
+            target="_blank" rel="noopener noreferrer"
+            href="src/assets/docs/R.Giovinozzo_resume_2020.06.17.pdf">Download my Resume</a>
+        </div>
+
         <div className="contact">
           <div className="contact__info">
             <span className="contact__info contact__info--phone">(707) 797-7610</span>
