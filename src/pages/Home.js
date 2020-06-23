@@ -1,4 +1,5 @@
 import React from 'react';
+import * as resPDF from '../assets/docs/R.Giovinozzo_resume_2020.06.17.pdf';
 
 export default function Home (props) {
   return (
@@ -14,11 +15,11 @@ export default function Home (props) {
           <span>Elegant Design</span>
         </h3>
 
-        <div className="res">
-          <a className="res res__doc" title="Resume Download for Robert Giovinozzo"
-            target="_blank" rel="noopener noreferrer"
-            href="src/assets/docs/R.Giovinozzo_resume_2020.06.17.pdf">Download my Resume</a>
-        </div>
+        <a className="btn btn__res"
+          title="Resume Download for Robert Giovinozzo"
+          target="_blank"
+          rel="noopener noreferrer"
+          href={resPDF}>View my Resume</a>
 
         <div className="contact">
           <div className="contact__info">
