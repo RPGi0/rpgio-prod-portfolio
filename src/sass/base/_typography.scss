@@ -43,7 +43,6 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  // display: inline-block;
   color: $color-secondary-light;
   text-shadow: 2px 2px 2px $color-secondary-dark;
   
@@ -59,7 +58,7 @@ body {
   }
 
   &__info {
-    display: inline-block;
+    display: block;
     padding: 1rem 2rem;
     font-size: 3rem;
     color: #F39BDF;

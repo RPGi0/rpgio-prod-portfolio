@@ -86,7 +86,7 @@ body {
   .contact a {
     text-decoration: none; }
   .contact__info {
-    display: inline-block;
+    display: block;
     padding: 1rem 2rem;
     font-size: 3rem;
     color: #F39BDF;
