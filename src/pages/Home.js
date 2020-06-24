@@ -25,7 +25,7 @@ export default function Home (props) {
           <div className="contact__info">
             <span className="contact__info contact__info--phone">(707) 797-7610</span>
 
-            <a href="mailto:gio@llnnll.com" className="contact__info contact__info--email">gio@llnnll.com</a>
+            <a href="mailto:contact@rp-g.io" className="contact__info contact__info--email">contact@rp-g.io</a>
           </div>
 
           <div className="contact__soc-links">
